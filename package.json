@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@hookform/resolvers": "^3.3.4",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "isotope-layout": "^3.0.6",
     "next": "14.1.4",
