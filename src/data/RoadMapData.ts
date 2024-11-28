@@ -10,7 +10,7 @@ const road_map_data: DataType[] = [
       id: 1,
       sub_title: "Q4 2024",
       title: "Stage 1: Initial Launch",
-      desc: "<ul><li>Conduct an Initial Coin Offering (ICO) to raise funds through three presale rounds (400 Million tokens in total), with in first round will have sale of 160 Million token and other two round will have 120 Million in each round.</li><li>Launch a demo of the crowdfunding platform. </li><li>Release a Telegram mini app game to engage the community.</li></ul>",
+      desc: "<ul><li>Conduct an Initial Coin Offering (ICO) to raise funds through *10 presale rounds* (400 Million tokens in total).</li><li>Launch a demo of the crowdfunding platform.</li> <li> Release a Telegram mini app game to engage the community.</li></ul>",
    },
    {
       id: 2,

@@ -3,8 +3,8 @@ import React from 'react';
 import { useTimer } from 'react-timer-hook';
 
 const CountdownClock = () => {
-  // Set the target date to 31st December 2024, 12:00 AM
-  const targetDate = new Date('December 31, 2024 00:00:00');
+  // Set the target date to 10th January 2025, 12:00 AM
+  const targetDate = new Date('2025-01-10T00:00:00');
 
   // Destructure the useTimer hook with the target expiration timestamp
   const {
@@ -12,7 +12,11 @@ const CountdownClock = () => {
     minutes,
     hours,
     days,
-  } = useTimer({ expiryTimestamp: targetDate, onExpire: () => console.warn('Timer expired') });
+  } = useTimer({ 
+    expiryTimestamp: targetDate, 
+    onExpire: () => console.warn('Timer expired'),
+    autoStart: true
+  });
 
   return (
     <>
