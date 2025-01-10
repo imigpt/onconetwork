@@ -121,5 +121,13 @@ const menu_data: MenuItem[] = [
         title: "Contact",
         link: "/contact",
     },
+    {
+        id: 7,
+        page:"nav_2",
+        has_dropdown: false,
+        target:"",
+        title: "Presale",
+        link: "https://gempad.app/presale/0x933796c017cfA25083b466e4aA647A1A7FAC8161?network=Ethereum",
+    },
 ];
 export default menu_data;
