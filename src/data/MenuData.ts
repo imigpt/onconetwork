@@ -45,6 +45,14 @@ const menu_data: MenuItem[] = [
         title: "White Paper",
         link: "/assets/onconetwork.pdf",
     },
+    {
+        id: 7,
+        page:"nav_1",
+        has_dropdown: false,
+        target:"blank",
+        title: "Presale",
+        link: "https://gempad.app/presale/0x933796c017cfA25083b466e4aA647A1A7FAC8161?network=Ethereum",
+    },
     /*{
         id: 4,
         page:"nav_1",
@@ -125,7 +133,7 @@ const menu_data: MenuItem[] = [
         id: 7,
         page:"nav_2",
         has_dropdown: false,
-        target:"",
+        target:"blank",
         title: "Presale",
         link: "https://gempad.app/presale/0x933796c017cfA25083b466e4aA647A1A7FAC8161?network=Ethereum",
     },
