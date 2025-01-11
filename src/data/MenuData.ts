@@ -51,7 +51,7 @@ const menu_data: MenuItem[] = [
         has_dropdown: false,
         target:"blank",
         title: "Presale",
-        link: "https://gempad.app/presale/0x933796c017cfA25083b466e4aA647A1A7FAC8161?network=Ethereum",
+        link: "https://gempad.app/embed?address=0x933796c017cfA25083b466e4aA647A1A7FAC8161&bgColor=%2312181F&fgColor=%23161D27&hasAnimation=true&hasBanner=true&hasSocialLinks=true&network=Ethereum&padding=30&refer=&responsive=true&saleType=presale&theme=dark&txtColor=%23FFFFFF",
     },
     /*{
         id: 4,
@@ -135,7 +135,7 @@ const menu_data: MenuItem[] = [
         has_dropdown: false,
         target:"blank",
         title: "Presale",
-        link: "https://gempad.app/presale/0x933796c017cfA25083b466e4aA647A1A7FAC8161?network=Ethereum",
+        link: "https://gempad.app/embed?address=0x933796c017cfA25083b466e4aA647A1A7FAC8161&bgColor=%2312181F&fgColor=%23161D27&hasAnimation=true&hasBanner=true&hasSocialLinks=true&network=Ethereum&padding=30&refer=&responsive=true&saleType=presale&theme=dark&txtColor=%23FFFFFF",
     },
 ];
 export default menu_data;
