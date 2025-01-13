@@ -6517,3 +6517,35 @@ label {
  nextjs-portal {
   display: none;
 }
+
+
+
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of the container */
+  margin-top: 20px; /* Optional spacing */
+  padding: 0; /* No padding for full width */
+  box-sizing: border-box;
+}
+
+.iframe-container iframe {
+  width: 100%; /* Occupy full width */
+  height: 600px; /* Default height for desktop view */
+  border: none;
+}
+
+/* Mobile View Responsiveness */
+@media (max-width: 768px) {
+  .iframe-container iframe {
+     height: 400px; /* Reduce height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .iframe-container iframe {
+     height: 300px; /* Further reduce height for very small screens */
+  }
+}
