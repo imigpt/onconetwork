@@ -47,6 +47,36 @@ const FooterOne = () => {
                            White Paper
                            </Link>
                         </li>
+                        <li key={1}>
+                              <Link href={'disclaimer'}>
+                              Disclaimer
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'privacy-policy'}>
+                              Privacy Policy 
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'terms-of-use'}>
+                              Terms of use 
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'aml-and-kyc'}>
+                              Aml & Kyc 
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'risk-disclosure'}>
+                              Risk Disclosure
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'cookies-policy'}>
+                              Cookies Policy
+                              </Link>
+                           </li> 
                      </ul>
                   </div>
                </div>
