@@ -77,6 +77,16 @@ const FooterOne = () => {
                               Cookies Policy
                               </Link>
                            </li> 
+                           <li key={1}>
+                              <Link href={'technology'}>
+                              Technology
+                              </Link>
+                           </li> 
+                           <li key={1}>
+                              <Link href={'sitemap.xml'}>
+                              Sitemap
+                              </Link>
+                           </li> 
                      </ul>
                   </div>
                </div>
