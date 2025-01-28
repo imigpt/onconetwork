@@ -36,7 +36,19 @@ const Hero = () => {
                </div>
             </div>
 
+
+            <div className="iframe-container">
+            <div className="btn-wrap">
+                        <Link target="_blank" href="https://presale.onconetwork.xyz/" className="btn btn-two">
+                        OIN THE PRESALE
+                        </Link>
+                     </div>
+            </div>
+
+            
+
             {/* Responsive and Centered iFrame */}
+            {/*
             <div className="iframe-container">
                <iframe
                   src="https://gempad.app/embed?address=0x933796c017cfA25083b466e4aA647A1A7FAC8161&bgColor=%2312181F&fgColor=%23161D27&hasAnimation=true&hasBanner=true&hasSocialLinks=true&network=Ethereum&padding=30&refer=&responsive=true&saleType=presale&theme=dark&txtColor=%23FFFFFF"
@@ -45,6 +57,7 @@ const Hero = () => {
                   allowFullScreen
                ></iframe>
             </div>
+            */}
          </div>
       </div>
    );

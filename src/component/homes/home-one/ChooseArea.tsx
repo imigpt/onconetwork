@@ -278,7 +278,7 @@ const ChooseArea = () => {
 
             <div className="row gy-5 justify-content-between pt-60">
                <div className="banner-countdown-wrap">
-                  <div className="coming-time" data-countdown="2024/8/29">
+                  <div className="coming-time" data-countdown="2025/2/10">
                   <CountdownClock />
                   </div>
                </div>
