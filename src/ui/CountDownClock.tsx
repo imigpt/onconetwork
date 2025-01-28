@@ -4,7 +4,7 @@ import { useTimer } from 'react-timer-hook';
 
 const CountdownClock = () => {
   // Set the target date to 10th January 2025, 12:00 AM
-  const targetDate = new Date('2025-02-14T21:00:03');
+  const targetDate = new Date('2025-02-10T21:00:03');
 
   // Destructure the useTimer hook with the target expiration timestamp
   const {
